@@ -8,7 +8,7 @@ from typing import List
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 
 # 设置OpenAI模型
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 llm = OpenAI(temperature = 0.9, model_name = "gpt-3.5-turbo-0301")
 
 def loadFiles(directoryPath):
